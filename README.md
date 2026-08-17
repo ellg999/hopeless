@@ -1,2 +1,2 @@
 # ya-terserah
-17 augudt 2026
+17 august 2026
