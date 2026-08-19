@@ -211,7 +211,9 @@ button {
   width: 1005;
   height: 4px;
   margin: 4px 0 8px;
-  apperance: none:
+  apperance: none;
+  border-radius: 10px;
+  outline: none;
   cursor: pointer;
   background: linear-gradient(to right, #dca44e var(--progress), #454038 var(--progress));
 }
