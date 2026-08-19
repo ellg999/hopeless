@@ -1,2 +1,21 @@
 :root {
-  front-family: 
+  front-family: Manrope, Arial, sans-serif;
+  color: #f3ede1;
+  background: #11100f;
+  font-synthesis: cnone;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #11100f;
+}
+
+button, input {
+  font: inherit;
+}
