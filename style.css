@@ -94,7 +94,7 @@ button {
   border: 2px solid #11100f;
   border-radius: 50%;
   background: #78c889;
-  box-shadow: 0 0 0 11px #78c889cc;
+  box-shadow: 0 0 0 3px #78c889cc;
 }
 
 .intro h1 {
