@@ -1,5 +1,5 @@
 :root {
-  front-family: Manrope, Arial, sans-serif;
+  font-family: Manrope, Arial, sans-serif;
   color: #f3ede1;
   background: #11100f;
   font-synthesis: none;
@@ -32,7 +32,7 @@ button {
   min-height: 100vh;
   place-items: center;
   overflow: hidden;
-  padding: 56px 20 px;
+  padding: 56px 20px;
 }
 
 .glow {
@@ -42,8 +42,8 @@ button {
   width: 620px;
   height: 620px;
   transform: translateX(-50%);
-  pointer-events: nonel;
-  background: redial-gradient(circle, rgba(222, 165, 78, .13), transparent 66%);
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(222, 165, 78, .13), transparent 66%);
 }
 
 .portofolio {
@@ -55,7 +55,7 @@ button {
 
 .eyebrow, .player-heading, .role, .footer-note {
   margin: 0;
-  font-family: "DM-Mono", monospace;
+  font-family: "DM Mono", monospace;
   letter-spacing: .12em;
   text-transform: uppercase;
 }
@@ -73,7 +73,7 @@ button {
   margin: 0 auto 28px;
   border: 1px solid #ffffff29;
   border-radius: 50%;
-  box-shadow: 0 0 0 8px #ffffff06, 0 22px 48 px #00000061;
+  box-shadow: 0 0 0 8px #ffffff06, 0 22px 48px #00000061;
 }
 
 .profile-photo img {
@@ -82,7 +82,7 @@ button {
   height: 100%;
   border-radius: inherit;
   object-fit: cover;
-  filter: saturate(.72) sepial(.08);
+  filter: saturate(.72) sepia(.08);
 }
 
 .online-dot {
@@ -132,7 +132,7 @@ button {
 }
 
 .skills li {
-  padding: 7x 11px;
+  padding: 7px 11px;
   border: 1px solid #ffffff1c;
   border-radius: 999px;
   color: #c7c0b5;
@@ -208,17 +208,17 @@ button {
 }
 
 .progress {
-  width: 1005;
+  width: 100%;
   height: 4px;
   margin: 4px 0 8px;
-  apperance: none;
+  appearance: none;
   border-radius: 10px;
   outline: none;
   cursor: pointer;
   background: linear-gradient(to right, #dca44e var(--progress), #454038 var(--progress));
 }
 
-.progress: :-webkit-slider-thumb {
+.progress::-webkit-slider-thumb {
   width: 12px;
   height: 12px;
   appearance: none;
@@ -236,14 +236,14 @@ button {
 }
 
 .controls {
-  display:n flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 18px;
   margin: 20px 0;
 }
 
-icon-button {
+.icon-button {
   padding: 7px;
   color: #b7afa3;
   background: transparent;
@@ -252,14 +252,14 @@ icon-button {
 
 .play-button {
   display: inline-flex;
-  alignh-items: center;
+  align-items: center;
   justify-content: center;
   gap: 8px;
   min-width: 92px;
   padding: 11px 14px;
   border-radius: 999px;
   background: #dca44e;
-  color: n#201b14;
+  color: #201b14;
   font-size: 12px;
   font-weight: 600;
 }
@@ -278,7 +278,7 @@ icon-button {
 
 .song-item {
   display: grid;
-  grid-template-colums: 26px 1fr auto;
+  grid-template-columns: 26px 1fr auto;
   width: 100%;
   padding: 10px 0;
   border-bottom: 1px solid #ffffff0f;
@@ -288,12 +288,12 @@ icon-button {
 }
 
 .song-item span:nth-child(2) {
-  color: #c7c0b5:
+  color: #c7c0b5;
 }
 
 .song-item:hover span:nth-child(2),
 .song-item.active span:nth-child(2) {
-  color: #f1c577l;
+  color: #f1c577;
 }
 
 .song-item.active span:first-child {
@@ -316,7 +316,7 @@ icon-button {
 }
 
 @media (max-width: 420px) {
-  .page { padding: 38px 16 px; }
+  .page { padding: 38px 16px; }
   .music-player { padding: 18px; }
-  .profile-photo { width: 136px; height: 136 px; }
+  .profile-photo { width: 136px; height: 136px; }
 }
