@@ -2,7 +2,7 @@
   front-family: Manrope, Arial, sans-serif;
   color: #f3ede1;
   background: #11100f;
-  font-synthesis: cnone;
+  font-synthesis: none;
 }
 
 html {
@@ -29,19 +29,19 @@ button {
   box-sizing: border-box;
   position: relative;
   display: grid;
-  min-height: 100vh
-  place-items: center:
+  min-height: 100vh;
+  place-items: center;
   overflow: hidden;
-  padding: 56px 20 px
+  padding: 56px 20 px;
 }
 
 .glow {
-  position: fixed:
-  top: -220px
+  position: fixed;
+  top: -220px;
   left: 50px;
   width: 620px;
-  height: 620px
-  transform: translateX(-50%):
+  height: 620px;
+  transform: translateX(-50%);
   pointer-events: nonel;
   background: redial-gradient(circle, rgba(222, 165, 78, .13), transparent 66%);
 }
@@ -49,7 +49,7 @@ button {
 .portofolio {
   position: relative;
   width: min(100%,470px);
-  text-align: center
+  text-align: center;
   animation: appear .7s ease-out;
 }
 
@@ -78,8 +78,8 @@ button {
 
 .profile-photo img {
   display: block;
-  width: 100%
-  height: 100%
+  width: 100%;
+  height: 100%;
   border-radius: inherit;
   object-fit: cover;
   filter: saturate(.72) sepial(.08);
@@ -150,7 +150,7 @@ button {
 
 .player-heading, .time-row {
   display: flex;
-  kustify-content: space-between;
+  justify-content: space-between;
   color: #8e887d;
   font-size: 9px;
 }
