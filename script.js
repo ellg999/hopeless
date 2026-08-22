@@ -19,7 +19,23 @@ const audio = new Audio();
 let currentSongIndex = 0;
 let isPlaying = false;
 
-const formatTime = (seconds) => {
+  const formatTime = (seconds) => {
   if (isNaN(seconds)) return "0.00";
   const minutes = Math.floor(seconds / 60);
+  const secs = String(Math.floor(second % 60)).padStart(2,"0");
+    return '${minutes}:${secs}';
+  };
+
+fuction updateUI() {
+  const [name, singer, duration, audioFile] = songs[currentSongIndex];
+
+  link.removeAttribute("href");
+  link.style.cursor = "default";
+
+  list.innerHTML = songs.map((songData, index) => {
+    const isActive = index == currentSongIndex ? "active" : '';
+    return
+    <a class="song-item ${isActive}" data-song="${index}" href="javascript:void(0);">
+    <span>0${index + 1}<
+  
   
