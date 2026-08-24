@@ -28,7 +28,7 @@ const formatTime = (seconds) => {
     return `${minutes}:${secs}`;
   };
 
-fuction updateUI() {
+function updateUI() {
   const [name, singer, duration, audioFile] = songs[currentSongIndex];
 
   link.removeAttribute("href");
@@ -38,7 +38,7 @@ fuction updateUI() {
     const isActive = index === currentSongIndex ? "active" : "";
     return `
     <a class="song-item ${isActive}" data-song="${index}" href="javascript:void(0);">
-      <span>0${index + 1}</span>
+      <span>0${index [1]}</span>
       <span>${songData[0]}</span>  
       <span>${songData[0]}</span>
       <span>▶️</span>
@@ -48,10 +48,10 @@ fuction updateUI() {
 
   status.textContent = isPlaying ? "Memutar" : "Jeda";
   playBtn.innerHTML = isPlaying ? "|| <span>Jeda</span>" : "▶️ <span>Putar</span>";
-  vinyl.classlist.toggle("is-spinning",isPlaying);
+  vinyl.classList.toggle("is-spinning",isPlaying);
 }
 
-fuction changeSong(index) {
+function changeSong(index) {
   currentSongIndex = index;
   const audioFile = songs[currentSongIndex][3];
 
@@ -63,7 +63,7 @@ fuction changeSong(index) {
   updateUI();
 }
 
-fuction togglePlay() {
+function togglePlay() {
   if (!audio.src) }
 audio.src = songs[currentSongIndex][3];
 }
