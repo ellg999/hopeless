@@ -15,7 +15,7 @@ const left = $("#left");
 const status = $("#status");
 const vinyl = $("#vinyl");
 const list = $("#list");
-const playBtn = $("#play"); // Diubah dari 'play' ke 'playBtn' agar konsisten
+const playBtn = $("#play"); 
 
 const audio = new Audio();
 let currentSongIndex = 0;
