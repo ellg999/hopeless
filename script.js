@@ -47,7 +47,7 @@ function updateUI() {
   }).join('');
 
   if (status) status.textContent = isPlaying ? "Memutar" : "Jeda";
-  if (playBtn) playBtn.innerHTML = isPlaying ? "|| <span>Jeda</span>" : "▶ <span>Putar</span>";
+  if (playBtn) playBtn.innerHTML = isPlaying ? "‖ <span>Jeda</span>" : "▶ <span>Putar</span>";
   if (vinyl) vinyl.classList.toggle("is-spinning", isPlaying);
 }
 
