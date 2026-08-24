@@ -64,11 +64,11 @@ function changeSong(index) {
 }
 
 function togglePlay() {
-  if (!audio.src) }
+  if (!audio.src) {
 audio.src = songs[currentSongIndex][3];
 }
 
-if (isPlaying) }
+if (isPlaying) {
   audio.pause();
 } else {
   audio.play();
@@ -81,7 +81,7 @@ updateUI();
 audio.addEventListener("timeupdate", () => {
   const currentTime = audio.currentTime;
   const duration = songs[currentSongIndex][2];
-  const percent = (currentTime / duration *100;
+  const percent = (currentTime / duration *100;)
 
   bar.max = duration;
   bar.value = currentTime;
@@ -96,16 +96,16 @@ audio.addEventListener("ended",() => {
 });
 
 playBtn.onclick = togglePlay;
-$("#next").onclick = () => changeSong((currentSongIndex + 1) % songs.length;
-$("#prev").onclick = () => changeSong((currentSongIndex + songs.length - 1) % song.lenght);
+$("#next").onclick = () => changeSong((currentSongIndex + 1) % songs.length;)
+$("#prev").onclick = () => changeSong((currentSongIndex + songs.length - 1) % song.length);
 
-bar.oniput = () => {
-  audio.currentTime = Number(bar,value);
+bar.oninput = () => {
+  audio.currentTime = Number(bar.value);
   updateUI();
 };
 
-list.onclick = (event) =>
-  const item = event.target.closet("[data-song]");
+list.onclick = (event) => {
+  const item = event.target.closest("[data-song]");
   if (item) {
     changeSong(Number(item.dataset.song));
   }
