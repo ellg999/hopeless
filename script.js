@@ -38,7 +38,7 @@ function updateUI() {
     const isActive = index === currentSongIndex ? "active" : "";
     return `
     <a class="song-item ${isActive}" data-song="${index}" href="javascript:void(0);">
-      <span>0${index [1]}</span>
+      <span>0${index + 1}</span>
       <span>${songData[0]}</span>  
       <span>${songData[0]}</span>
       <span>▶️</span>
@@ -81,7 +81,7 @@ updateUI();
 audio.addEventListener("timeupdate", () => {
   const currentTime = audio.currentTime;
   const duration = songs[currentSongIndex][2];
-  const percent = (currentTime / duration *100;)
+  const percent = (currentTime / duration) *100;
 
   bar.max = duration;
   bar.value = currentTime;
