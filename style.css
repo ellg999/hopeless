@@ -1,7 +1,7 @@
 :root {
   font-family: Manrope, Arial, sans-serif;
-  color: #112e81;
-  background: #111844;
+  color: #f3ede1;
+  background: #11100f;
   font-synthesis: none;
 }
 
@@ -13,7 +13,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
-  background: #111844;
+  background: #11100f;
 }
 
 button, input {
