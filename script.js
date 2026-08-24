@@ -41,13 +41,13 @@ function updateUI() {
         <span>0${index + 1}</span>
         <span>${songData[0]}</span>  
         <span>${songData[1]}</span>
-        <span>▶️</span>
+        <span>▶</span>
       </a>
     `;
   }).join('');
 
   if (status) status.textContent = isPlaying ? "Memutar" : "Jeda";
-  if (playBtn) playBtn.innerHTML = isPlaying ? "|| <span>Jeda</span>" : "▶️ <span>Putar</span>";
+  if (playBtn) playBtn.innerHTML = isPlaying ? "|| <span>Jeda</span>" : "▶ <span>Putar</span>";
   if (vinyl) vinyl.classList.toggle("is-spinning", isPlaying);
 }
 
