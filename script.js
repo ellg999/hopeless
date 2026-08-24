@@ -1,6 +1,6 @@
 const songs = [
   [ "'Cause You Have To", "LANY", 251, "'Cause You Have To.mp3"],
-  [ "Merry Christmas, Please Don't Call", "Bleachers", 203, "Merry Christmas, Please Don't Call.mp3"],
+  [ "Merry Christmas, Please Don't Call", "Bleachers", 203, "Merry Christmas, Please Don t Call.mp3"],
   [ "Past Life", "Ariana Grande", 216, "Past Life.mp3"],
 ];
 
