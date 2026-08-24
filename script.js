@@ -2,7 +2,7 @@ const songs = [
   [ "'Cause You Have To", "LANY", 251, "'Cause You Have To.mp3"],
   [ "Merry Christmas, Please Don't Call", "Bleachers", 203, "Merry Christmas, Please Don't Call.mp3"],
   [ "Past Life", "Ariana Grande", 216, "Past Life.mp3"],
-  [ "Location Unknonw HONNE feat BEKA", "HONNE feat BEKA", 324, "Location Unknonw.mp3"],
+  [ "Location Unknown", "HONNE feat BEKA", 324, "Location Unknown.mp3"],
 ];
 
 const $ = (id) => document.querySelector(id);
